@@ -4,7 +4,9 @@ export default function PokemonList({pokemon}){
   return (
     <div>
       {pokemon.map(p => (
-        <div key={p}>{p}</div>
+        <div key={p.name}><span>Name: {p.name}</span><br />
+        <span>Height: {p.height}</span><br /><br/></div>
+
       ))}
     </div>
   );

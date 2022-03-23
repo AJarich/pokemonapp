@@ -51,6 +51,7 @@ function App() {
 
   return (
     <>
+      <h1 class="pokemon-api-title">Pokemon API</h1>
       <PokemonList pokemon={pokemon} />
       <Pagination gotoNextPage={nextPageUrl ? gotoNextPage : null} gotoPrevPage={prevPageUrl ? gotoPrevPage : null} />
     </>

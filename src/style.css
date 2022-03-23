@@ -1,0 +1,195 @@
+
+/* Background color for image area based on Pokemon type */
+
+.bug {
+  background: linear-gradient(0deg,rgba(206,206,166,1) 0%, rgba(170,187,34,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.dark {
+  background: linear-gradient(0deg, rgba(119,85,68,1) 0%, rgba(53,44,39,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.dragon {
+  background: linear-gradient(0deg, rgba(119,102,238,1) 0%, rgba(122,127,167,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.electric {
+  background: linear-gradient(0deg, rgba(255,204,51,1) 0%, rgba(231,214,162,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.fairy {
+  background: linear-gradient(0deg, rgba(238,153,238,1) 0%, rgba(182,33,202,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.flying {
+  background: linear-gradient(0deg, rgba(136,153,255,1) 0%, rgba(219,220,226,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.fighting {
+  background: linear-gradient(0deg, rgba(187,85,68,1) 0%, rgba(224,145,132,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.fire {
+  background: linear-gradient(0deg, rgba(255,68,34,1) 0%, rgba(219,143,81,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.ghost {
+  background: linear-gradient(0deg, rgba(102,102,187,1) 0%, rgba(192,218,255,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.grass {
+  background: linear-gradient(0deg, rgba(86,170,120,1) 0%, rgba(119,204,85,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.ground {
+  background: linear-gradient(0deg, rgba(221,187,85,1) 0%, rgba(163,151,116,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.ice {
+  background: linear-gradient(0deg, rgba(102,204,255,1) 0%, rgba(238,245,255,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.normal {
+  background: linear-gradient(0deg, rgba(226,226,212,1) 0%, rgba(170,170,153,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.poison {
+  background: linear-gradient(0deg, rgba(245,196,235,1) 0%, rgba(170,85,153,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.psychic {
+  background: linear-gradient(0deg, rgba(255,85,153,1) 0%, rgba(218,164,205,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.rock {
+  background: linear-gradient(0deg, rgba(187,170,102,1) 0%, rgba(154,146,125,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.steel {
+  background: linear-gradient(0deg, rgba(170,170,187,1) 0%, rgba(237,237,237,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+.water {
+  background: linear-gradient(0deg, rgba(51,153,255,1) 0%, rgba(146,168,189,1) 100%);
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-top: -1px;
+  margin-left: -0.5px;
+  margin-right: -1px;
+}
+
+body {
+  background-color: #fffdfd !important;
+}
+
+.pokemon-api-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pokemon-api-title::before {
+  content: url('./pokeball-clipart-10-2.png');
+  position: relative;
+  top: 15px;
+}
+
+div.card {
+  border: 3px solid black;
+}
+
+
+img.card-top-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+}
+
+.button-group {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+button.btn {
+  background-color: red;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+button.btn.btn-primary.prev {
+  margin-right: 15px;
+  background-color: #d61800;
+}
+
+button.btn.btn-primary {
+  background-color: #ff1d00;
+}
